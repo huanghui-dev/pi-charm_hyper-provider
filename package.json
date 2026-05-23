@@ -1,0 +1,26 @@
+{
+  "name": "pi-charm_hyper-provider",
+  "version": "1.0.0",
+  "type": "module",
+  "keywords": [
+    "pi-package",
+    "provider",
+    "hyper"
+  ],
+  "scripts": {
+    "test": "tsx --test test/**/*.test.ts"
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.0.0",
+    "tsx": "^4.19.0"
+  },
+  "pi": {
+    "extensions": [
+      "./index.ts"
+    ]
+  }
+}
