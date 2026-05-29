@@ -146,7 +146,7 @@ export default function(pi: ExtensionAPI) {
   pi.registerProvider("charm-hyper", {
     name: "Charm Hyper",
     baseUrl: "https://hyper.charm.land/v1",
-    apiKey: "HYPER_API_KEY",
+    apiKey: "$HYPER_API_KEY",
     authHeader: true,
     api: "openai-completions",
     models: hyperModels,
